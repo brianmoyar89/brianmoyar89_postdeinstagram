@@ -1,0 +1,118 @@
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post {
+    position: relative;
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-header {
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: 70px;
+    top: 0;
+    display: flex;
+
+}
+.post-header b {
+    margin-right: 15px;
+    margin-top: 15px;
+}  
+  .post-header p {
+    margin-left: -65px;
+    max-width: 40px;
+    margin-top: 30px;
+}
+.post-header i.fa-html5{
+    margin-top: 32px;
+    margin-left: 10px;
+    color: black;
+}
+.post-header i.fa-ellipsis-vertical {
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 10px;   
+}
+.post-image {
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    top: 70px;
+}
+.post-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-body {
+    position:absolute;
+    background-color: white;
+    width: 600px;
+    height: 240px;
+    top: 570px; 
+
+}
+.post-body-icons {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    width: 600px;
+    height: 60px;
+} 
+  .post-body-icons i.fa-heart {
+    color: black;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  
+  .post-body-icons i.fa-comment {
+    color: black;
+    margin-top: 30px;
+    margin-left: 5px;
+  }
+  
+  .post-body-icons i.fa-paper-plane {
+    color: black;
+    margin-top: 30px;
+    margin-left: 5px;
+  }
+  
+  .post-body-icons i.fa-bookmark {
+    color: black;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+  }  
+
+.post-body-likes {
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    width: 590px;
+    height: 30px;
+    padding-left: 10px;
+}
+.post-body-content {
+    position: absolute;
+    top: 90px;
+    background-color: white;
+    width: 580px;
+    height: 150px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    text-align: justify;
+}
